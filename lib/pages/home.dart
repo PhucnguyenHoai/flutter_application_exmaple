@@ -297,11 +297,16 @@ class HomePage extends StatelessWidget {
               color: Color(0xffDDDADA),
               fontSize: 14,
             ),
-            prefixIcon: Padding(
-              padding: const EdgeInsets.all(11),
-              child: SvgPicture.asset(
-                  'assets/icons/magnifying-glass-2-svgrepo-com.svg'),
+            prefixIcon: Icon(
+              Icons.search,
+              size: 20,
+              color: Colors.black,
             ),
+            // prefixIcon: Padding(
+            //   padding: const EdgeInsets.all(11),
+            //   child: SvgPicture.asset(
+            //       'assets/icons/magnifying-glass-2-svgrepo-com.svg'),
+            // ),
             suffixIcon: SizedBox(
                 width: 100,
                 child: IntrinsicHeight(
